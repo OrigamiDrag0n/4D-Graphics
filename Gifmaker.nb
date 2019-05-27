@@ -1,0 +1,158 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4955,        150]
+NotebookOptionsPosition[      3711,        122]
+NotebookOutlinePosition[      4061,        137]
+CellTagsIndexPosition[      4018,        134]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"Import", "[", 
+      RowBox[{"\"\<FileAddress\>\"", "<>", 
+       RowBox[{"ToString", "[", "i", "]"}], "<>", "\"\<.eps\>\""}], "]"}], 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "0", ",", "359"}], "}"}]}], "]"}], "/.", 
+   RowBox[{"{", 
+    RowBox[{"$Failed", "\[Rule]", "Nothing"}], "}"}]}], ";", "   ", 
+  RowBox[{"Export", "[", 
+   RowBox[{"\"\<600cell.gif\>\"", ",", "%"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.7679538308584595`*^9, 3.7679538490145817`*^9}, {
+  3.7679539712628193`*^9, 
+  3.7679540125943336`*^9}},ExpressionUUID->"f765b628-5800-41e4-8299-\
+e2ff42bf1ce6"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import","nffil",
+   "\"File not found during \\!\\(\\*RowBox[{\\\"Import\\\"}]\\).\"",2,1,1,
+   16557730485607709577,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.7679538530649443`*^9},ExpressionUUID->"a22ff509-be69-41bc-bc51-\
+06f9d002e696"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import","nffil",
+   "\"File not found during \\!\\(\\*RowBox[{\\\"Import\\\"}]\\).\"",2,1,2,
+   16557730485607709577,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.767953853067068*^9},ExpressionUUID->"b6507958-4db0-4230-b5f8-\
+ef66a52b1667"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import","nffil",
+   "\"File not found during \\!\\(\\*RowBox[{\\\"Import\\\"}]\\).\"",2,1,3,
+   16557730485607709577,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.7679538531137176`*^9},ExpressionUUID->"19dc7928-dc76-46a1-ae78-\
+29e94de037c9"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"Import\\\", \\\"::\\\", \
+\\\"nffil\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"",2,1,4,16557730485607709577,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.7679538531519685`*^9},ExpressionUUID->"a689d7f0-de91-419e-b26c-\
+f178f7310add"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{
+  3.76795399784071*^9},ExpressionUUID->"e834d3ab-5340-46bd-920a-010a564d90f1"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Export","errelem",
+   "\"The Export element \\!\\(\\*RowBox[{\\\"\\\\\\\"ImageList\\\\\\\"\\\"}]\
+\\) contains a malformed data structure and could not be exported to \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"GIF\\\\\\\"\\\"}]\\) format.\"",2,2,5,
+   16557730485607709577,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.7679539012404003`*^9},ExpressionUUID->"76313f25-7b63-4874-b0ac-\
+7ee5e0b45ec0"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{
+  3.7679539012434883`*^9},ExpressionUUID->"6e0b1216-9c80-4fa0-878a-\
+2fc40bc9aa4a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.76795390653545*^9, 3.7679539073125725`*^9}, 
+   3.767954049193011*^9},ExpressionUUID->"d1671bde-a629-4018-a9d1-\
+4edafb5836f7"],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{
+  3.7679539083542337`*^9},ExpressionUUID->"a4244377-8811-4b36-9732-\
+0cf6f362cbc3"]
+}, Open  ]]
+},
+WindowSize->{1520, 781},
+WindowMargins->{{-19, Automatic}, {Automatic, 173}},
+FrontEndVersion->"11.2 for Microsoft Windows (64-bit) (September 10, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 678, 18, 28, "Input",ExpressionUUID->"f765b628-5800-41e4-8299-e2ff42bf1ce6"],
+Cell[1261, 42, 303, 8, 21, "Message",ExpressionUUID->"a22ff509-be69-41bc-bc51-06f9d002e696"],
+Cell[1567, 52, 301, 8, 21, "Message",ExpressionUUID->"b6507958-4db0-4230-b5f8-ef66a52b1667"],
+Cell[1871, 62, 303, 8, 21, "Message",ExpressionUUID->"19dc7928-dc76-46a1-ae78-29e94de037c9"],
+Cell[2177, 72, 400, 9, 21, "Message",ExpressionUUID->"a689d7f0-de91-419e-b26c-f178f7310add"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2614, 86, 125, 2, 28, "Input",ExpressionUUID->"e834d3ab-5340-46bd-920a-010a564d90f1"],
+Cell[2742, 90, 447, 10, 21, "Message",ExpressionUUID->"76313f25-7b63-4874-b0ac-7ee5e0b45ec0"],
+Cell[3192, 102, 138, 3, 32, "Output",ExpressionUUID->"6e0b1216-9c80-4fa0-878a-2fc40bc9aa4a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3367, 110, 176, 3, 28, "Input",ExpressionUUID->"d1671bde-a629-4018-a9d1-4edafb5836f7"],
+Cell[3546, 115, 149, 4, 32, "Output",ExpressionUUID->"a4244377-8811-4b36-9732-0cf6f362cbc3"]
+}, Open  ]]
+}
+]
+*)
+
